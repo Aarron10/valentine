@@ -6,10 +6,35 @@ body {
     margin: 0;
     background-color: #f9e3e3;
     font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+
+.we {
+    position: fixed;
+    width: 150%;
+    height: 150%;
+    z-index: -1;
+    background-image: url("img/w.png"); /* Add your alternate image path here */
+    background-size: 10% 20%, 10% 20%;
+    background-position: 0 0, 100% 0;
+    animation: marquee 20s linear infinite;
+    transform: rotate(340deg);
+}
+
+@keyframes marquee {
+    0% {
+        background-position: 100% 0, 0 0;
+        margin: 0 100px;
+    }
+    100% {
+        background-position: -100% 0, 200% 0;
+        margin: 100px 0px;
+    }
 }
 
 .container {
     text-align: center;
+    overflow: hidden;
 }
 
 .header_text {
