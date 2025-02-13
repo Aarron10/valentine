@@ -1,12 +1,12 @@
 const messages = [
     "Are you sure ?",
     "Cent percent??",
-    "Momos shake vangi theram?",
+    "Momos vangi theram?",
     "Pookie please...",
     "Just think about it!",
     "If you say no, njan karayum...",
     "If u say no, njan sherikum karayume...",
-    "Njan karayuva...",
+    "Njan karayuva 😭 ...",
     "Ok fine, I will stop asking...",
     "Just kidding, say yes please baby! ❤️"
 ];
