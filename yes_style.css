@@ -32,6 +32,36 @@ body {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .we {
+        width: 300%;
+        height: 150%;
+        background-size: 15% 15%, 15% 15%;
+        transform: rotate(345deg);
+        top: -50%;
+        left: -100%;
+    }
+
+    @keyframes marquee {
+        0% {
+            transform: rotate(345deg) translateX(0%);
+        }
+        100% {
+            transform: rotate(345deg) translateX(-50%);
+        }
+    }
+
+    .header_text {
+        font-size: 1.8em;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        padding: 20px;
+        max-width: 100%;
+    }
+}
+
 .container {
     text-align: center;
     overflow: hidden;
