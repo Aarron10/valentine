@@ -1,14 +1,14 @@
 const messages = [
     "Are you sure ?",
     "Cent percent??",
-    "Mango shake vangi theram?",
+    "Momos shake vangi theram?",
     "Pookie please...",
     "Just think about it!",
     "If you say no, njan karayum...",
     "If u say no, njan sherikum karayume...",
     "Njan karayuva...",
     "Ok fine, I will stop asking...",
-    "Just kidding, say yes please! ❤️"
+    "Just kidding, say yes please baby! ❤️"
 ];
 
 let messageIndex = 0;
